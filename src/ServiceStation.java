@@ -8,7 +8,6 @@ public class ServiceStation<T extends Transport> {
     public Queue<T> getTheQueueForInspection() {
         return queue;
     }
-
     public void addQueue(T transport) {
         if (transport instanceof Bus){
             System.out.println("Автобусы не проходят ТО ");

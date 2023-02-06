@@ -9,7 +9,6 @@ public enum TransportType {
     TransportType(String assignmentTransportType) {
         this.assignmentTransportType = assignmentTransportType;
     }
-
     @Override
     public String toString() {
         return assignmentTransportType;

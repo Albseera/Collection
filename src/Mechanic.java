@@ -17,7 +17,6 @@ public class Mechanic {
     public void fixTheCar() {
         System.out.println(name + " из компании " + company + " починит машину");
     }
-
     public String getName() {
         return name;
     }

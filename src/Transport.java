@@ -16,7 +16,6 @@ public abstract class Transport {
     public void setStamp(String stamp) {
         this.stamp = stamp;
     }
-
     public String getModel() {
         return model;
     }

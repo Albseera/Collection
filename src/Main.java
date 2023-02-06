@@ -5,6 +5,7 @@ public class Main {
 
 
     public static void main(String[] args) {
+
         System.out.println("Коллекции. #1");
 
         Driver driver = new Driver("John");
@@ -14,7 +15,9 @@ public class Main {
         Bus bus = new Bus("Mercedes", "B700", 8.0);
 
         Car car = new Car("Tayota", " Mark II", 2.5);
+
         car.addMechanica(mechanicsTayota);
+
 
         List<Mechanic> racers = new ArrayList<>();
         racers.add(mechanicsTayota);

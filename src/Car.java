@@ -4,7 +4,6 @@ public class Car extends Transport  {
 
 
 
-
     public Car(String stamp, String model, double engineCapacity) {
         super(stamp, model, engineCapacity);
 
