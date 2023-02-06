@@ -1,6 +1,5 @@
 public class Bus extends Transport {
 
-
     public Bus(String stamp, String model, double engineCapacity) {
         super(stamp, model, engineCapacity);
 
